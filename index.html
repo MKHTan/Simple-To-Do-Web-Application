@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="App">
+<head>
+<title>Web Apps - Lab 5</title>
+<link rel="stylesheet" href="stylesheet.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+<script src="todo.js"></script>
+</head>
+<body ng-controller="todoCtrl">
+<header>Lab 5 - To Do Application</header>
+<main>
+
+<article>
+<br>
+<form ng-submit="add()">
+	<input class="txtSize" type="text" ng-model="todoTask" placeholder="Enter New To Do Task">
+	<br>
+	<input class="descHeight txtSize" type="text" ng-model="todoDesc" placeholder="Enter Task Description">
+	<br>
+	<input type="submit" value="Add Task">
+</form>
+<br>
+</article>
+
+<br>
+<form ng-click="remove()">
+	<input type="submit" value="Remove Checked From List">
+</form>
+<br>
+
+<article ng-include="'format.htm'">
+</article>
+
+</main>
+</body>
+</html>

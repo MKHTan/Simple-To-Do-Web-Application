@@ -1,0 +1,5 @@
+<ul>
+<li ng-repeat="todo in todos track by $index">
+<input type="checkbox" ng-model="todo.completion">Name: {{todo.task}}<br>{{todo.description}}
+</li>
+</ul>

@@ -1,0 +1,74 @@
+@media only screen and (max-width: 599px){
+	main{
+		width: 90%;
+	}
+	
+	.txtSize{
+		width: 90%;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px){
+	main{
+		width: 80%;
+	}
+	
+	.txtSize{
+		width: 90%;
+	}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1199px){
+	main{
+		width: 75%;
+	}
+
+	.txtSize{
+		width: 70%;
+	}
+}
+
+
+@media only screen and (min-width: 1200px){
+	main{
+		width: 60%;
+	}
+	
+	.txtSize{
+		width: 50%;
+	}
+}
+
+article{
+	border-style: solid;
+	border-color: gray;
+	margin: auto;
+	color: white;
+}
+
+body{
+	background-color: black;
+	text-align: center;
+}
+
+header{
+	font-size: 40px;
+	color: white;
+}
+
+li{
+	color: white;
+}
+
+main{
+	margin: auto;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+.descHeight{
+	height: 100px;
+}
